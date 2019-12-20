@@ -1,7 +1,7 @@
 let theBeatlesPlay = (musicians, instruments) => {
-  arr = []
+  arr = [];
   
-  for(int i = 0; i < musicians.size; i++){
+  for(int i = 0; i < musicians.length; i++){
     arr.push(musicians[i] + " plays " + instruments[i]);
   }
   
