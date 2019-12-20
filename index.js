@@ -1,5 +1,5 @@
 let theBeatlesPlay = (musicians, instruments) => {
-  arr = [];
+  let arr = [];
   
   for(let i = 0; i < musicians.length; i++){
     arr.push(musicians[i] + " plays " + instruments[i]);
@@ -20,7 +20,7 @@ let johnLennonFacts = (facts) => {
 }
 
 let iLoveTheBeatles = (num) => {
-  arr = [];
+  let arr = [];
   do{
     arr.push("I love the Beatles!");
     num++;
